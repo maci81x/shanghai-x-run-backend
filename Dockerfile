@@ -12,6 +12,6 @@ COPY backend/ ./backend/
 # Esponi porta
 EXPOSE 8000
 
-# Avvia server
-CMD ["sh", "-c", "cd backend && uvicorn server:app --host 0.0.0.0 --port $PORT"]
-
+# Cambia working directory e avvia server
+WORKDIR /app/backend
+CMD ["uvicorn", "server:app", "--host", "0.0.0.0", "--port", "8000"]
