@@ -6,6 +6,7 @@ pydantic==2.8.2
 pydantic-settings==2.3.4
 bcrypt==4.1.2
 python-multipart==0.0.9
+gpxpy==1.6.2
 qrcode==7.4.2
 pillow==10.3.0
 requests==2.31.0
