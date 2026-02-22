@@ -14,3 +14,4 @@ EXPOSE 8000
 
 # Avvia server
 CMD ["sh", "-c", "cd backend && uvicorn server:app --host 0.0.0.0 --port $PORT"]
+
