@@ -20,8 +20,8 @@ import json
 import uuid
 import gpxpy
 import gpxpy.gpx
-from shapely.geometry import Point, LineString
-from shapely.ops import nearest_points
+# from shapely.geometry import Point, LineString
+# from shapely.ops import nearest_points
 import asyncio
 from collections import defaultdict
 import io
